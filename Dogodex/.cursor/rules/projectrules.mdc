@@ -1,0 +1,27 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Dogodex – Cursor AI rules
+[context]
+project_name = Dogodex
+language = fr
+styleguide = airbnb-typescript + prettier
+framework = expo-react-native
+library_ui = nativewind v4
+
+[design-system]
+tokens_file = tokens/design-tokens.ts
+automatic_import = true
+[testing]
+tdd_enforced = true
+coverage_threshold = 80
+
+[architecture]
+paradigm = feature-sliced + clean
+folder_aliases = @app, @features, @shared, @entities, @processes
+
+[restrictions]
+forbidden_dependencies = ['moment', 'lodash']
+require_strict_null_checks = true

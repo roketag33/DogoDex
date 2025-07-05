@@ -1,0 +1,31 @@
+export const tokens = {
+    colors: {
+      primary: '#FF7F50',
+      'primary-dark': '#E06737',
+      'primary-light': '#FFA07A',
+      secondary: '#2A5DFF',
+      'secondary-dark': '#1F48CC',
+      'secondary-light': '#4D79FF',
+      success: '#34C759',
+      warning: '#FFCC00',
+      error: '#FF3B30',
+      'neutral-100': '#FFFFFF',
+      'neutral-900': '#0A0A0A',
+    },
+    spacing: [0,2,4,8,12,16,20,24,32,40,48,64,80,96,112],
+    radii: { sm: 4, md: 8, lg: 16, full: 9999 },
+    shadows: {
+      sm: '0 1 2 rgba(0,0,0,.05)',
+      md: '0 4 6 rgba(0,0,0,.08)',
+      lg: '0 10 15 rgba(0,0,0,.10)',
+    },
+    typography: {
+      'display-lg': { size: 2.986, lineHeight: 1.1 },
+      display: { size: 2.488, lineHeight: 1.15 },
+      headline: { size: 2.074, lineHeight: 1.2 },
+      title: { size: 1.728, lineHeight: 1.25 },
+      'body-lg': { size: 1.44, lineHeight: 1.4 },
+      body: { size: 1, lineHeight: 1.5 },
+      caption: { size: 0.833, lineHeight: 1.4 },
+    },
+  } as const;
